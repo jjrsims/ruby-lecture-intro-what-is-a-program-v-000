@@ -1,6 +1,6 @@
 # What is a Program?
 
-### Objectives:
+### OBJECTIVES:
 
 * Describe a program.
 * Distinguish between interpreted and compiled programs.
@@ -12,11 +12,11 @@
 
 [MP4](http://flatiron-videos.s3.amazonaws.com/ironboard/ruby/ruby-lecture-what-is-a-program/ruby-lecture-what-is-a-program.mp4)
 
-### What's a Program?
+### WHAT IS A PROGRAM?
 
 All programs are just files on your computer filled with text. That text has a special syntax we call code. The programming language you are using defines the syntax of the code you are allowed to write. Programs are converted to [machine code](https://en.wikipedia.org/wiki/Machine_code) so that the computer can understand it.
 
-### Interpreted vs Compiled
+### INTERPRETED v. COMPILED
 
 Depending on the programming language you are using, it will either be a [compiled language](http://en.wikipedia.org/wiki/Compiled_language) or an [interpreted language](http://en.wikipedia.org/wiki/Interpreted_language). Compiled programs will first be converted to machine code and then you will be able to run the program. Interpreted languages will be interpreted and converted to machine code at run time.
 
