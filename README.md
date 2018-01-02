@@ -43,14 +43,14 @@ Every word and character in a program has to be valid code for the Ruby language
 
 Anything that isn't one of those is invalid and the Ruby interpreter will throw an error. 
 
-Let's say you ran a program, and saw the following output (pay attention to the last line):
+Say you ran a program, and saw the following output (pay attention to the last line):
 
 ```
 Programs are composed of basically three things:
 A language's keywords, like 'if' or 'end' (approximately 43).
 Literal pieces of data like this very sentence (or String).
 Finally, barewords, or variables, that are set equal to things.
-Anything that isn't one of those will cause an error.
+Anything that is not one of those will cause an error.
 lib/a_ruby_program.rb:23:in `<main>': undefined local variable or method `see' for main:Object (NameError)
 ```
 
