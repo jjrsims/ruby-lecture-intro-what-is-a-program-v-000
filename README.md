@@ -14,11 +14,11 @@
 
 ### What's a Program?
 
-All programs are just files on your computer filled with text. That text has a special syntax we call code. The programming language you're using defines the syntax of the code you are allowed to write. Programs are converted to [machine code](https://en.wikipedia.org/wiki/Machine_code) so that the computer can understand it.
+All programs are just files on your computer filled with text. That text has a special syntax we call code. The programming language you are using defines the syntax of the code you are allowed to write. Programs are converted to [machine code](https://en.wikipedia.org/wiki/Machine_code) so that the computer can understand it.
 
 ### Interpreted vs Compiled
 
-Depending on the programming language you're using, it will either be a [compiled language](http://en.wikipedia.org/wiki/Compiled_language) or an [interpreted language](http://en.wikipedia.org/wiki/Interpreted_language). Compiled programs will first be converted to machine code and then you will be able to run the program. Interpreted languages will be interpreted and converted to machine code at run time.
+Depending on the programming language you are using, it will either be a [compiled language](http://en.wikipedia.org/wiki/Compiled_language) or an [interpreted language](http://en.wikipedia.org/wiki/Interpreted_language). Compiled programs will first be converted to machine code and then you will be able to run the program. Interpreted languages will be interpreted and converted to machine code at run time.
 
 ### Running a Ruby Program
 
@@ -31,17 +31,17 @@ ruby -v
 ruby 2.2.2p95 (2015-04-13 revision 50295) [x86_64-darwin14]
 ```
 
-As an example, to run a Ruby program that was stored in `some-program.rb` you would simply type: `ruby some-program.rb`. 
+As an example, to run a Ruby program that was stored in `some-program.rb` you would simply type: `ruby some-program.rb`.
 
 ### Words in a Program
 
 Every word and character in a program has to be valid code for the Ruby language. Basically, every word can be one of three possible things:
 
-1. A Ruby keyword, something that's part of the ruby language.
+1. A Ruby keyword, something that is part of the ruby language.
 2. Literal data, things like "Strings" and numbers like 1 or 2.
 3. Barewords you define and create, things like variables and methods.
 
-Anything that isn't one of those is invalid and the Ruby interpreter will throw an error. 
+Anything that is not one of those is invalid and the Ruby interpreter will throw an error.
 
 Say you ran a program, and saw the following output (pay attention to the last line):
 
@@ -56,6 +56,6 @@ lib/a_ruby_program.rb:23:in `<main>': undefined local variable or method `see' f
 
 That last line, `lib/a_ruby_program.rb:23:in '<main>': undefined local variable or method 'see' for main:Object (NameError)` is telling you that there was an error caused by an unrecognized word in the source of our program, more specifically on line 23.
 
-We'll soon learn all about reading error messages.
+We will soon learn all about reading error messages.
 
 <p class='util--hide'>View <a href='https://learn.co/lessons/ruby-lecture-intro-what-is-a-program'>What is a Program?</a> on Learn.co and start learning to code for free.</p>
